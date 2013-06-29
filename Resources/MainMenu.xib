@@ -527,6 +527,7 @@
         </customObject>
         <viewController id="z2r-lL-mAz" customClass="BBUFileBrowserViewController">
             <connections>
+                <outlet property="tableView" destination="biF-FV-u3C" id="M6z-4I-p0e"/>
                 <outlet property="view" destination="biF-FV-u3C" id="Ug8-np-qoJ"/>
             </connections>
         </viewController>

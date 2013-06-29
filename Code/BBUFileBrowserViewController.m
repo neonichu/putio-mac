@@ -13,6 +13,10 @@
 
 @implementation BBUFileBrowserViewController
 
+-(void)awakeFromNib {
+    self.view = self.tableView;
+}
+
 -(id)init {
     self = [super init];
     return self;

@@ -10,7 +10,7 @@
 
 @interface BBUFileBrowserViewController : NSViewController
 
-@property IBOutlet NSTableView* view;
+@property IBOutlet NSTableView* tableView;
 
 -(void)startBrowsing;
 

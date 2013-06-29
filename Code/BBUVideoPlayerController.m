@@ -109,7 +109,7 @@ static NSString *ResolveName(NSString *aName)
                      defaultButton:NSLocalizedString(@"OK", nil)
                    alternateButton:nil
                        otherButton:nil
-         informativeTextWithFormat:nil] runModal];
+         informativeTextWithFormat:@""] runModal];
 }
 
 -(void)streamMovieAtURL:(NSURL*)url {

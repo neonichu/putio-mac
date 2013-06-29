@@ -102,6 +102,7 @@
         <customObject id="494" customClass="BBUAppDelegate">
             <connections>
                 <outlet property="fileBrowser" destination="z2r-lL-mAz" id="SEl-Bm-cjU"/>
+                <outlet property="videoPlayer" destination="GOH-s2-fbs" id="g8E-QX-WeS"/>
                 <outlet property="window" destination="371" id="532"/>
             </connections>
         </customObject>
@@ -112,5 +113,6 @@
                 <outlet property="view" destination="biF-FV-u3C" id="Ug8-np-qoJ"/>
             </connections>
         </viewController>
+        <viewController id="GOH-s2-fbs" customClass="BBUVideoPlayerController"/>
     </objects>
 </document>

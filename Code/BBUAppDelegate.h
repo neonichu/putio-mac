@@ -9,10 +9,12 @@
 #import <Cocoa/Cocoa.h>
 
 @class BBUFileBrowserViewController;
+@class BBUVideoPlayerController;
 
 @interface BBUAppDelegate : NSObject <NSApplicationDelegate>
 
 @property (assign) IBOutlet BBUFileBrowserViewController* fileBrowser;
+@property (assign) IBOutlet BBUVideoPlayerController* videoPlayer;
 @property (assign) IBOutlet NSWindow *window;
 
 @end

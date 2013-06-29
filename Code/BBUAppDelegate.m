@@ -10,6 +10,7 @@
 
 #import "BBUAppDelegate.h"
 #import "BBUFileBrowserViewController.h"
+#import "BBUVideoPlayerController.h"
 #import "PutIO_AuthConstants.h"
 #import "PutIOOAuthHelper.h"
 
@@ -27,6 +28,10 @@ typedef void(^BBUAuthenticationSucessfulHandler)();
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
+    self.fileBrowser.fileAction = ^(PKFile* file) {
+        [self.videoPlayer playVideoFromPutIOFile:file];
+    };
+    
     [self authenticateIfNeededWithCompletionHandler:^{
         [self.fileBrowser startBrowsing];
     }];

@@ -8,8 +8,13 @@
 
 #import <Cocoa/Cocoa.h>
 
+@class PKFile;
+
+typedef void(^BBUFileAction)(PKFile* file);
+
 @interface BBUFileBrowserViewController : NSViewController
 
+@property (copy) BBUFileAction fileAction;
 @property IBOutlet NSTableView* tableView;
 
 -(void)startBrowsing;

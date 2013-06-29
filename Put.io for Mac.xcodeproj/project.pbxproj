@@ -17,6 +17,8 @@
 		86617BCD177F70C90092B932 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86617BCC177F70C90092B932 /* WebKit.framework */; };
 		86617BD0177F7C470092B932 /* BBUFileBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86617BCF177F7C470092B932 /* BBUFileBrowserViewController.m */; };
 		86617BD3177F7C6C0092B932 /* PKFolder+BBUAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 86617BD2177F7C6C0092B932 /* PKFolder+BBUAdditions.m */; };
+		86617BDC177F92C50092B932 /* BBUVideoPlayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86617BDB177F92C50092B932 /* BBUVideoPlayerController.m */; };
+		86617BDF177F94330092B932 /* NSViewController+Activity.m in Sources */ = {isa = PBXBuildFile; fileRef = 86617BDE177F94330092B932 /* NSViewController+Activity.m */; };
 		F6E2AB037DA745C48450BAA9 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 70FDCE42911F4AB59B5AEF81 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -44,6 +46,10 @@
 		86617BD1177F7C6C0092B932 /* PKFolder+BBUAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PKFolder+BBUAdditions.h"; sourceTree = "<group>"; };
 		86617BD2177F7C6C0092B932 /* PKFolder+BBUAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PKFolder+BBUAdditions.m"; sourceTree = "<group>"; };
 		86617BD4177F7CB50092B932 /* PutIO_AuthConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PutIO_AuthConstants.h; sourceTree = "<group>"; };
+		86617BDA177F92C50092B932 /* BBUVideoPlayerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBUVideoPlayerController.h; sourceTree = "<group>"; };
+		86617BDB177F92C50092B932 /* BBUVideoPlayerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBUVideoPlayerController.m; sourceTree = "<group>"; };
+		86617BDD177F94330092B932 /* NSViewController+Activity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSViewController+Activity.h"; sourceTree = "<group>"; };
+		86617BDE177F94330092B932 /* NSViewController+Activity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSViewController+Activity.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +114,10 @@
 				86617B61177F5A9C0092B932 /* BBUAppDelegate.m */,
 				86617BCE177F7C470092B932 /* BBUFileBrowserViewController.h */,
 				86617BCF177F7C470092B932 /* BBUFileBrowserViewController.m */,
+				86617BDA177F92C50092B932 /* BBUVideoPlayerController.h */,
+				86617BDB177F92C50092B932 /* BBUVideoPlayerController.m */,
+				86617BDD177F94330092B932 /* NSViewController+Activity.h */,
+				86617BDE177F94330092B932 /* NSViewController+Activity.m */,
 				86617BD1177F7C6C0092B932 /* PKFolder+BBUAdditions.h */,
 				86617BD2177F7C6C0092B932 /* PKFolder+BBUAdditions.m */,
 				86617BD4177F7CB50092B932 /* PutIO_AuthConstants.h */,
@@ -258,6 +268,8 @@
 			files = (
 				86617B62177F5A9C0092B932 /* BBUAppDelegate.m in Sources */,
 				86617BD0177F7C470092B932 /* BBUFileBrowserViewController.m in Sources */,
+				86617BDC177F92C50092B932 /* BBUVideoPlayerController.m in Sources */,
+				86617BDF177F94330092B932 /* NSViewController+Activity.m in Sources */,
 				86617B5B177F5A9C0092B932 /* main.m in Sources */,
 				86617BCB177F70780092B932 /* PutIOOAuthHelper.m in Sources */,
 				86617BD3177F7C6C0092B932 /* PKFolder+BBUAdditions.m in Sources */,

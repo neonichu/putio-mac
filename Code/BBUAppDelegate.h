@@ -8,8 +8,11 @@
 
 #import <Cocoa/Cocoa.h>
 
+@class BBUFileBrowserViewController;
+
 @interface BBUAppDelegate : NSObject <NSApplicationDelegate>
 
+@property (assign) IBOutlet BBUFileBrowserViewController* fileBrowser;
 @property (assign) IBOutlet NSWindow *window;
 
 @end

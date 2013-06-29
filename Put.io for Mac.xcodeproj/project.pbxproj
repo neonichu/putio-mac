@@ -1,0 +1,333 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		86617B4F177F5A9C0092B932 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86617B4E177F5A9C0092B932 /* Cocoa.framework */; };
+		86617B5B177F5A9C0092B932 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 86617B5A177F5A9C0092B932 /* main.m */; };
+		86617B5F177F5A9C0092B932 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 86617B5D177F5A9C0092B932 /* Credits.rtf */; };
+		86617B62177F5A9C0092B932 /* BBUAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 86617B61177F5A9C0092B932 /* BBUAppDelegate.m */; };
+		86617B65177F5A9C0092B932 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 86617B63177F5A9C0092B932 /* MainMenu.xib */; };
+		86617B67177F5A9C0092B932 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86617B66177F5A9C0092B932 /* Images.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		86617B4B177F5A9C0092B932 /* Put.io for Mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Put.io for Mac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		86617B4E177F5A9C0092B932 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		86617B51177F5A9C0092B932 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		86617B52177F5A9C0092B932 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		86617B53177F5A9C0092B932 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		86617B56177F5A9C0092B932 /* Put.io for Mac-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Put.io for Mac-Info.plist"; sourceTree = "<group>"; };
+		86617B5A177F5A9C0092B932 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		86617B5C177F5A9C0092B932 /* Put.io for Mac-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Put.io for Mac-Prefix.pch"; sourceTree = "<group>"; };
+		86617B5E177F5A9C0092B932 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = Credits.rtf; sourceTree = "<group>"; };
+		86617B60177F5A9C0092B932 /* BBUAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BBUAppDelegate.h; sourceTree = "<group>"; };
+		86617B61177F5A9C0092B932 /* BBUAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBUAppDelegate.m; sourceTree = "<group>"; };
+		86617B64177F5A9C0092B932 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = MainMenu.xib; sourceTree = "<group>"; };
+		86617B66177F5A9C0092B932 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		86617B48177F5A9C0092B932 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86617B4F177F5A9C0092B932 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		86617B42177F5A9C0092B932 = {
+			isa = PBXGroup;
+			children = (
+				86617B54177F5A9C0092B932 /* Code */,
+				86617B4D177F5A9C0092B932 /* Frameworks */,
+				86617B4C177F5A9C0092B932 /* Products */,
+				86617B82177F5B060092B932 /* Resources */,
+				86617B55177F5A9C0092B932 /* Supporting Files */,
+			);
+			sourceTree = "<group>";
+		};
+		86617B4C177F5A9C0092B932 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				86617B4B177F5A9C0092B932 /* Put.io for Mac.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		86617B4D177F5A9C0092B932 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				86617B4E177F5A9C0092B932 /* Cocoa.framework */,
+				86617B50177F5A9C0092B932 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		86617B50177F5A9C0092B932 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				86617B51177F5A9C0092B932 /* AppKit.framework */,
+				86617B52177F5A9C0092B932 /* CoreData.framework */,
+				86617B53177F5A9C0092B932 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		86617B54177F5A9C0092B932 /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				86617B60177F5A9C0092B932 /* BBUAppDelegate.h */,
+				86617B61177F5A9C0092B932 /* BBUAppDelegate.m */,
+			);
+			path = Code;
+			sourceTree = "<group>";
+		};
+		86617B55177F5A9C0092B932 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				86617B5D177F5A9C0092B932 /* Credits.rtf */,
+				86617B5A177F5A9C0092B932 /* main.m */,
+				86617B56177F5A9C0092B932 /* Put.io for Mac-Info.plist */,
+				86617B5C177F5A9C0092B932 /* Put.io for Mac-Prefix.pch */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		86617B82177F5B060092B932 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				86617B66177F5A9C0092B932 /* Images.xcassets */,
+				86617B63177F5A9C0092B932 /* MainMenu.xib */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		86617B4A177F5A9C0092B932 /* Put.io for Mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86617B7C177F5A9C0092B932 /* Build configuration list for PBXNativeTarget "Put.io for Mac" */;
+			buildPhases = (
+				86617B47177F5A9C0092B932 /* Sources */,
+				86617B48177F5A9C0092B932 /* Frameworks */,
+				86617B49177F5A9C0092B932 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Put.io for Mac";
+			productName = "Put.io for Mac";
+			productReference = 86617B4B177F5A9C0092B932 /* Put.io for Mac.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		86617B43177F5A9C0092B932 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BBU;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Boris Bügling";
+				TargetAttributes = {
+					86617B4A177F5A9C0092B932 = {
+						DevelopmentTeam = EW237P5552;
+					};
+				};
+			};
+			buildConfigurationList = 86617B46177F5A9C0092B932 /* Build configuration list for PBXProject "Put.io for Mac" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 86617B42177F5A9C0092B932;
+			productRefGroup = 86617B4C177F5A9C0092B932 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				86617B4A177F5A9C0092B932 /* Put.io for Mac */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		86617B49177F5A9C0092B932 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86617B67177F5A9C0092B932 /* Images.xcassets in Resources */,
+				86617B5F177F5A9C0092B932 /* Credits.rtf in Resources */,
+				86617B65177F5A9C0092B932 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		86617B47177F5A9C0092B932 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86617B62177F5A9C0092B932 /* BBUAppDelegate.m in Sources */,
+				86617B5B177F5A9C0092B932 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		86617B5D177F5A9C0092B932 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86617B5E177F5A9C0092B932 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		86617B63177F5A9C0092B932 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86617B64177F5A9C0092B932 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		86617B7A177F5A9C0092B932 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		86617B7B177F5A9C0092B932 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		86617B7D177F5A9C0092B932 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Supporting Files/Put.io for Mac-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/Supporting Files/Put.io for Mac-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		86617B7E177F5A9C0092B932 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Supporting Files/Put.io for Mac-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/Supporting Files/Put.io for Mac-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		86617B46177F5A9C0092B932 /* Build configuration list for PBXProject "Put.io for Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86617B7A177F5A9C0092B932 /* Debug */,
+				86617B7B177F5A9C0092B932 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86617B7C177F5A9C0092B932 /* Build configuration list for PBXNativeTarget "Put.io for Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86617B7D177F5A9C0092B932 /* Debug */,
+				86617B7E177F5A9C0092B932 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 86617B43177F5A9C0092B932 /* Project object */;
+}
